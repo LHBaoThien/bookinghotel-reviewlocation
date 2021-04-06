@@ -17,7 +17,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/login', 'LoginController@getLogin')->name('authentication.login') ;
-Route::get('/register', 'LoginController@getRegister')->name('authentication.register') ;
-Route::get('/resetpassword', 'LoginController@getResetpassword')->name('authentication.resetpassword') ;
+Route::get('admincp/login', 'LoginController@getLogin')->name('authentication.login') ;
+Route::get('admincp/register', 'LoginController@getRegister')->name('authentication.register') ;
+Route::get('admincp/resetpassword', 'LoginController@getResetpassword')->name('authentication.resetpassword') ;
 

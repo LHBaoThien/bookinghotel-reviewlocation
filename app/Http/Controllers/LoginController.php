@@ -15,6 +15,6 @@ class LoginController extends Controller
     }
 
     public function getResetpassword(){
-        return view('authentication.register');
+        return view('authentication.resetpassword');
     }
 }
