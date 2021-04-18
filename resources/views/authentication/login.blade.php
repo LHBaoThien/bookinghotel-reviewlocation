@@ -25,7 +25,15 @@
 	<div class="limiter">
 		<div class="container-login100 page-background">
 			<div class="wrap-login100">
-				<form class="login100-form validate-form">
+
+                @if (session('message'))
+                    <div class="alert alert-success">
+                        {{session('message')}}
+                    </div>
+                @endif
+
+				<form class="login100-form validate-form" action="{{ route('authentication.postlogin') }}" method="post">
+					{{ csrf_field() }}
 					<span class="login100-form-logo">
 						<i class="zmdi zmdi-flower"></i>
 					</span>
@@ -37,7 +45,7 @@
 						<span class="focus-input100" data-placeholder="&#xf207;"></span>
 					</div>
 					<div class="wrap-input100 validate-input" data-validate="Enter password">
-						<input class="input100" type="password" name="pass" placeholder="Password">
+						<input class="input100" type="password" name="password" placeholder="Password">
 						<span class="focus-input100" data-placeholder="&#xf191;"></span>
 					</div>
 					<div class="contact100-form-checkbox">
@@ -47,9 +55,9 @@
 						</label>
 					</div>
 					<div class="container-login100-form-btn">
-						<button class="login100-form-btn">
-							Login
-						</button>
+						<input type="submit" class="login100-form-btn" value="Đăng nhập"/>
+
+
 					</div>
 					<div class="text-center p-t-90">
 						<a class="txt1" href="{{ route('authentication.resetpassword') }}">
