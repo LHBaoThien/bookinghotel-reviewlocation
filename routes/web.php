@@ -13,9 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 
 // Route::get('admincp/login', 'LoginController@getLogin')->name('authentication.login') ;
 // Route::post('admincp/login', 'LoginController@postLogin')->name('authentication.postlogin') ;
