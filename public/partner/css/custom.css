@@ -1,0 +1,800 @@
+/* home-top */
+header #wrap .ribbon nav ul.open li a {
+	text-align: center;
+}
+
+/* end-home-top */
+.search-left{
+	position: relative;
+}
+.search-left .f-item{
+	padding:0 0 10px;
+	float: none;
+}
+.search-left .ui-datepicker-trigger{
+	top: 25px;
+}
+.search-left .ui-icon-triangle-1-s{
+	top: 35px;
+}
+.search-left .ui-icon-triangle-1-n{
+	top: 25px;
+}
+.search-left .search-submit {
+	position: absolute;
+    left: 35px;
+    width: 204px;
+    height: 34px;
+    border: none;
+    font: normal 1.2em/34px 'RobotoBold';
+    text-transform: uppercase;
+    color: #fff;
+    -webkit-text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+    -moz-text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+}
+.image-item{
+	position: relative;
+	border-top:1px solid #DFDCD1;
+	padding:18px 0 0;
+	margin:0 0 -5px;
+}
+.image-item img{
+	display: inline-block;
+}
+.image-item ul li{
+	position: relative;
+	display: block;
+	float: left;
+	margin: 2px;
+}
+.image-item .image-overlay{
+	width: 100%;
+	height: 100px;
+	background: none;
+}
+.order table{
+	border: 1px solid #7d7979;
+	width: 100%;
+	text-align: center;
+	font-size: 1.3em;
+	color: #444;
+	line-height: 20px;
+	margin-bottom: 20px;
+}
+.order table td, .order table th{
+	border: 1px solid #7d7979;
+	padding: 3px;
+}
+.order a{
+	display: block;
+	margin:0 auto;
+}
+.full{
+	width: 100%;
+}
+.full .output p{
+	width: 45%;
+}
+#number-room{
+	padding: 3% 6%;
+}
+#choice-number{
+	font-size: 1.3em;
+}
+
+@media screen and (max-width: 1024px){
+	.search-left .search-submit{
+		left:1%;
+	}
+/*	.room-information .price .first{
+	width: 60px;
+	}*/
+}
+@media screen and (max-width: 830px){
+	.search-left .search-submit{
+		left:35%;
+	}
+
+}
+@media screen and (max-width: 600px) {
+	.search-left .search-submit{
+		left:25%;
+	}
+}
+/* ----------------------------------- */
+/* register_partner */
+.logins h1,
+.mysettings h1 {
+    margin: 0;
+}
+
+.logins h1 a {
+    text-decoration: none;
+    color: #B9ACA4;
+}
+
+.logins h1 a:hover {
+    text-decoration: underline;
+}
+
+.logins .b-info {
+    float: left;
+    width: 100%;
+}
+
+.logins .actions {
+    float: right;
+    width: 25%;
+    margin-top: 10px;
+}
+
+.logins .actions .gradient-button {
+    position: static;
+    padding: 0;
+    width: 50%;
+    margin: 0 0 10px;
+}
+
+.tab-content .logins th,
+.tab-content .mysettings th {
+    background: none;
+    width: 25%;
+    color: #41C0B8;
+    font-family: 'RobotoBold';
+    padding: 10px;
+    border: none;
+    /* border-bottom: 1px solid #ccc; */
+}
+
+.tab-content .logins td,
+.tab-content .mysettings td {
+    padding: 10px;
+    border: none;
+    /* border-bottom: 1px solid #ccc; */
+}
+/* end-register_partner */
+/* home_partner */
+.contact {
+	margin-top: 30px;
+	width: 240px;
+	height: 30px	;
+    background: url(../images/ico/person.png) 12px 0px  no-repeat;
+}
+/* end-home_partner */
+.top-left-nav li {
+	color: white;
+}
+.top-left-nav li a 	{
+	color: white;
+}
+.top-left-nav li a:hover{
+	color : red ;
+}
+/* end-booking-room */
+/* my-reviews */
+.tab-reviews {
+	width: 100%;
+}
+/* end-my-reviews */
+
+/* my-settings */
+.tab-setting {
+	width: 100%;
+}
+/* end-my-settings */
+
+/* my-booking */
+.tab-booking{
+	width: 100%;
+}
+/* end-my-booking */
+/* form-res */
+.form-booking {
+	width: 100%;
+}
+.twins .f-item.custom-item{
+	width: 48%;
+}
+/* end-form-res */
+/* index partner */
+.gradient-button.delete {
+    background: #ff6666;
+}
+.gradient-button.add {
+    background: #5cb85c	;
+}
+.gradient-button.edit1 {
+    background: #d58512	;
+}
+.gradient-button.see {
+    background: #a6a6a6	;
+}
+.gradient-button.success {
+    background: #28a745	;
+}
+.gradient-button.danger {
+    background: #dc3545	;
+}
+.gradient-button.warning {
+    background: #ffc107	;
+}
+/* end-index-partner */
+/* list-homestay-room */
+table.list-bills {
+	border-collapse: collapse;
+    width: 100%;    
+    margin-bottom: 20px;
+}
+.gradient-button.custom_button_bills
+{
+    font: normal 8px/23px 'RobotoBold';
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    height: 23px;
+}
+.display .function_bills img{
+    float: left !important;
+    margin: 0px 27px;
+}
+.display .function_one_bills img
+{
+    margin: 0px 27px;
+}
+.address.status_room_custom{
+    width: 50%;
+}
+  /* .list-bills tr,th, td {
+	padding: 8px;
+	text-align: center;
+	border-bottom: 1px solid #ddd;
+	font-size: 15px;
+} */
+  table.list-bills tr:hover {
+	  background-color: #f5f5f5;
+}
+table.list-bills tr td a{
+	text-decoration: none;
+}
+table.list-bills tr th {
+  background-color: #4CAF50;
+  color: white;
+}
+/* end-list */
+/* detail-booking */
+.tab-content{
+	width: 100%;
+}
+/* end-detail booking  */
+/* register_partner */
+.tab-content.login-tab{
+	width: 75%;
+}
+.tab-content.register-tab{
+	width: 75%;
+}
+/* end-register_partner */
+/* rate of list-room  */
+input[type=range] {
+    -webkit-appearance: none;
+    margin: 20px 0;
+    width: 100%;
+}
+input[type=range]:focus {
+    outline: none;
+}
+input[type=range]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 4px;
+    cursor: pointer;
+    animate: 0.2s;
+    background: #03a9f4;
+    border-radius: 25px;
+}
+input[type=range]::-webkit-slider-thumb {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background: #fff;
+    box-shadow: 0 0 4px 0 rgba(0,0,0, 1);
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -8px;
+}
+input[type=range]:focus::-webkit-slider-runnable-track {
+    background: #03a9f4;
+}
+.range-wrap{
+    /* width: 500px; */
+    position: relative;
+}
+.range-value{
+    position: absolute;
+    top: -50%;
+}
+.range-value span{
+    width: 30px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    background: #03a9f4;
+    color: #fff;
+    font-size: 12px;
+    display: block;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    border-radius: 6px;
+}
+.range-value span:before{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 10px solid #03a9f4;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    margin-top: -1px;
+}
+/* end-ranger-list-room  */
+.order table{
+	border: 1px solid #7d7979;
+	width: 100%;
+	text-align: center;
+	color: #444;
+	line-height: 20px;
+    margin-bottom: 20px;
+    
+}
+.order table td, .order table th{
+	border: 1px solid #7d7979;
+	padding: 3px;
+}
+.order a{
+	display: block;
+	margin:0 auto;
+}
+table  tr td.alert-danger{
+    
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+
+table  tr td.alert-success{
+    
+    color: #32df5d;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+.form-booking form p .alert-danger{
+    width: 300px;
+    height: 80px;
+    background-color: rosybrown;
+}
+
+.tab-content.myaccount {
+    width: 76.4%;
+}
+.edit_field.myaccount{
+    background: none;
+}
+.mysettings table tbody tr td .error_account{
+    font-size: 15px;
+    color: salmon;
+}
+.mysettings table tbody tr td .done_account{
+    font-size: 15px;
+    color: #32df5d;
+}
+
+
+/* Set color  */
+/* my-comments */
+
+/* endmy-comments */
+.myaccount .mysettings table.my-account tr th{
+    font-size: 16px;
+}
+.myaccount .myreviews table.my-comments  {
+    margin-bottom: 15px;
+}
+.myaccount .myreviews table.my-comments tr>th{
+    border: none;
+    background: none !important;
+    color: #41C0B8;
+    font-size: 15px;
+}
+.myaccount .myreviews table.my-comments  tr td{
+    border: none;
+    background: none;
+    font-size: 15px;
+}
+.myaccount .myreviews table.my-comments  tr {
+    border-bottom: 1px solid #B9ACA4;
+}
+.myaccount .myreviews strong.stt {
+    color: #fff;
+    font-size: 18px;
+}
+.three-fourth span.alert-account .change_status{
+    margin-left: 50px;
+    font-size: 14px;
+    color: #32df5d;
+}
+.wrap.clearfix a.no_href{
+    cursor: pointer;
+}
+
+.point {
+    padding: 4px 4px 4px 15px;
+    background-color: #000482 !important;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 12px;
+    background: url(../images/ico/star.png) 2px 4px no-repeat;
+}
+.custom-button{
+    font: normal 9px/30px 'RobotoBold';
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #f5f5f5;
+    height: 30px;
+    padding: 0 10px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 15px;
+}
+.custom-button.success {
+    background: #28a745	;
+}
+.custom-button.danger {
+    background: #dc3545	;
+}
+.custom-button.warning {
+    background: #ffc107	;
+}
+.image-overlay.search-custom{
+    background: url(../images/ico/magnify.png) 50% 70% no-repeat !important;
+}
+.get_inspired.width-height li {
+    width: 17.6%;
+    height: 150px;
+}
+.one-fourth .rating.like{
+    background: url(../images/ico/discount.png) 0 2px no-repeat !important;
+}
+.one-fourth .rating.nosale{
+    background: url(../images/ico/nosale.png) 0 2px no-repeat !important;
+}
+.price.none-border{
+    /* border: none; */
+    margin :0;
+}
+.price.none-border{
+    border-bottom: none;
+}
+.three-fourth .one-fourth.homestay-custom {
+    width: 22.6%;
+    margin: 0 2.4% 20px 0;
+    /* height:; */
+}
+.edit_field.edit_address{
+    background: none;
+}
+.edit_field.edit_address label{
+    text-align: left;
+}
+.edit_field.edit_address select {
+    width: 100%;
+}
+.edit_field.edit_address div.selector {
+    font-size: 15px;
+}
+.sort.custom li a {
+    position: absolute;
+    top: 35px;
+    right: 13px;
+    background: url(../images/ico/plus.png) 0 0 no-repeat;
+    width: 22px;
+    height: 22px;
+    overflow: hidden;
+    text-indent: -99999px;
+    display: inline-block;
+}
+.sort.custom li {
+    width: 130px;
+}
+.sort.custom {
+    border-right:none;
+}
+.sort.custom li .add {
+    top: 1px;
+    right: 7px;
+}
+.three-fourth i.alert-danger{
+    color:red;
+}
+.alert{
+    width: 100%;
+    height: 15px;
+    background: #f8d7da;
+    border-color: #f5c6cb;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    padding: .75rem 1.25rem;
+}
+.full i.alert-danger{
+    color:red;
+}
+.errors-register{
+    display: inline-block;
+    width: 92%;
+    height: 10px;
+    background: #f8d7da;
+    border-color: #f5c6cb;
+    padding: 0.5rem 1.25rem;
+    color: red;
+}
+.success-register{
+    display: inline-block;
+    width: 92%;
+    height: 10px;
+    background: #28a745;
+    border-color: #28a745;
+    padding: 0.75rem 1.25rem;
+    color: #fff;
+    margin-bottom: 28px;
+    border-radius: 25px;
+}
+.notify{
+    display: inline-block;
+    width: 92%;
+    height: 10px;
+    padding: 0.5rem 1.25rem;
+    color: red;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+.notify-success{
+    display: inline-block;
+    width: 96%;
+    height: 20px;
+    padding: 0.5rem 1.25rem;
+    color: #155724;
+    font-size: 15px;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    border-radius: .25rem;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+.notify-fail{
+    display: inline-block;
+    width: 96%;
+    height: 20px;
+    padding: 0.5rem 1.25rem;
+    color: #721c24;
+    background-color: #f8d7da;
+    font-size: 15px;
+    border-color: #f5c6cb;
+    border-radius: .25rem;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+.form-booking .img_custom {
+    width: 22.6%;
+}
+.details.custom_details h1{
+    font-size: 1.5em;
+}
+
+/* custom total revenue  */
+.forms .f-item {
+    display: inline-block;
+    margin-right: 100px;
+}
+.forms .f-item{
+    display: inline-block;
+    margin-right: 100px;
+}
+.forms .datepicker-wrap{
+    width: 150%;
+}
+.datepicker-wrap input{
+    height: 20px;
+}
+.forms .submit_search{
+    display: inline-block;
+}
+.forms .select_status {
+    display: inline-block;
+    width: 20%;
+    height: 20px;
+}
+.forms .select_option{
+    width: 100%;
+}
+.three-fourth .deals .table_bill{
+    margin-top: 10%;
+    background: #ffffff;
+}
+.three-fourth .deals .table_bill thead tr th {
+    background: #000482;
+    color: #fff;
+}
+.three-fourth .deals .table_bill  .alert_success{
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+.three-fourth .deals .table_bill   .alert_danger{
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+.three-fourth .deals .table_bill  .alert_warning{
+    color: #856404;
+    background-color: #fff3cd;
+    border-color: #ffeeba;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";    
+}
+
+.display tbody tr.alert_success.even{
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+.display tbody tr.alert_danger.even{
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+.display tbody tr.alert_warning.even{
+    color: #856404;
+    background-color: #fff3cd;
+    border-color: #ffeeba;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";    
+}
+table.dataTable.stripe tbody tr.odd, table.dataTable.display tbody tr.odd{
+    background-color: none !important;
+}
+.display tbody tr.alert_success.odd{
+    color: #155724;
+    background-color: #d4edda !important;
+    border-color: #c3e6cb;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+.display tbody tr.alert_danger.odd{
+    color: #721c24;
+    background-color: #f8d7da !important;
+    border-color: #f5c6cb;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+.display tbody tr.alert_warning.odd{
+    color: #856404;
+    background-color: #fff3cd;
+    border-color: #ffeeba;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";    
+}
+  /* .list-bills tr,th, td {
+	padding: 8px;
+	text-align: center;
+	border-bottom: 1px solid #ddd;
+	font-size: 15px;
+} */
+.table_bill tr,th,td {
+    padding: 8px;
+	text-align: center;
+	border-bottom: 1px solid #ddd;
+	font-size: 15px;
+}
+.dataTables_length select {
+    height: 20px;
+    width: 70px;
+    border-radius: 25px;
+}
+.dataTables_length label{
+    font-size: 1.5em;
+}
+.dataTables_paginate.paging_two_button{
+    margin: 15px 0px;
+}
+.dataTables_paginate.paging_two_button a.paginate_disabled_previous{
+    cursor: pointer;
+    padding: 10px 25px;
+    color: #007bff;
+    border: 1px solid#007bff;
+    border-radius: 25px;
+}
+.dataTables_paginate.paging_two_button a.paginate_disabled_next{
+    cursor: pointer;
+    padding: 10px 25px;
+    color: #007bff;
+    border: 1px solid#007bff;
+    border-radius: 25px;
+}
+.dataTables_paginate.paging_two_button a.paginate_enabled_next{
+    cursor: pointer;
+    padding: 10px 25px;
+    color: #007bff;
+    border: 1px solid#007bff;
+    border-radius: 25px;
+}
+.dataTables_paginate.paging_two_button a.paginate_enabled_previous{
+    cursor: pointer;
+    padding: 10px 25px;
+    color: #007bff;
+    border: 1px solid#007bff;
+    border-radius: 25px;
+}
+.wrap li.listbills{
+    width: 150px;
+}
+
+.deals>.custom_one_fourth {
+    width: 93%;
+}
+.full>.custom_one_fourth {
+    width: 93%;
+}
+/* linh custom */
+#script-warning {
+    display: none;
+    background: #eee;
+    border-bottom: 1px solid #ddd;
+    padding: 0 10px;
+    line-height: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+    color: red;
+  }
+
+  #loading {
+    display: none;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+
+  #calendar {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 0 10px;
+  }
+.manage{
+    background-color: #fff;
+    width: 100%;
+    margin: 0 0 20px;
+    float: left;
+    font-size: 1.2em;
+    color: #000;
+}
+.select_homestay{
+    width: 45%;
+    margin: 20px 20px;
+    float: left;
+}
+.select_homestay select{
+    width: 100%;
+}
+.select_homestay .selector{
+    margin-top: 10px;
+    -webkit-box-shadow:none;
+}
+.main_manage{
+    background-color: #fff;
+}
+.fc .fc-bg-event .fc-event-title{
+    color: #ffffff;
+    margin-top: 30px;
+}
+.deals section article.ratings article{
+    box-shadow: none !important;
+}
