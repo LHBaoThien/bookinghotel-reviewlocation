@@ -17,12 +17,12 @@ class UsersTableSeeder extends Seeder
     {
         // \App\Models\User::factory(10)->create();
         // $this->call(UsersTableSeeder::class);
-        $data = [
-            'email'=>'himinnbooking@gmail.com',
-            'password'=>bcrypt('123456'),
-            'name'=>'admin',
-            'created_at'=>new DateTime()
-        ];
-        return DB::table('users')->insert($data);
+        // $data = [
+        //     'email'=>'himinnbooking@gmail.com',
+        //     'password'=>bcrypt('123456'),
+        //     'name'=>'admin',
+        //     'created_at'=>new DateTime()
+        // ];
+        // return DB::table('users')->insert($data);
     }
 }
